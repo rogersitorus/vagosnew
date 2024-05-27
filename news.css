@@ -1,0 +1,118 @@
+.news-main-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    max-width: 100%;    
+}
+
+.news-main-hero::before {
+    content: "";
+    background-image: url('./image/bg-main-news.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+
+/* NEWS */
+.news-main-title,
+.news-hiring-title {
+    color: #01FFF4;
+    font-weight: 700;
+    font-size: 4.3vmax;
+    text-align: center;
+    background: linear-gradient(180deg, #01FFF4 42.92%, rgba(1, 255, 244, 0) 99.99%, rgba(1, 255, 244, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.news-main-section {
+    box-sizing: border-box;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.news-main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 2%;
+    row-gap: 0.5rem;
+    column-gap: 1%;
+    position: relative;
+}
+
+.news-section .news-page {
+    justify-content: center;
+    display: flex;
+}
+
+.news-section .news-page button {
+    padding: 5px;
+    background-color: #D9D9D9;
+    margin: 5px;
+}
+
+.news-hiring {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.news-hiring-section {
+    width: 100%;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.news-hiring-container {
+    height: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5vmax;
+    position: relative;
+    justify-content: center;
+}
+
+.news-hiring-card {
+    position: relative;
+    width: 30%;
+}
+
+.news-hiring-card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.news-hiring-card h2 {
+    position: relative;
+    font-size: 2vmax;
+    font-weight: bold;
+}
+
+.news-hiring-card h3 {
+    position: relative;
+    font-size: 1.5vmax;
+    font-weight: 400;
+}
+
+@media screen {
+    
+}
+.news-hiring .news-hiring-card{
+
+}

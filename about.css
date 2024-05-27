@@ -1,0 +1,341 @@
+.about-hero-section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 4rem;
+}
+
+.about-hero-section::before {
+    content: "";
+    background-image: url('./image/bg-about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.about-main-section .about-container {
+    width: 100%;
+    padding: 5% 10%;
+    margin-bottom: 3rem;
+}
+
+.about-main-section .about-container p {
+    padding: 5% 10%;
+    width: 100%;
+    text-align: center ;
+    font-size: 1.5vmax;
+    font-weight: 300;
+}
+
+.about-main-section .about-container span {
+    font-style: italic;
+    padding: 0;
+    text-align: left;
+    font-size: 3vmax;
+    font-weight: 700;
+    color: var(--primary);
+    text-shadow: 5px 10px 10px black;
+}
+
+.about-main-section .about-container h2 {
+    color: #01FFF4;
+    width: 30%;
+    margin: auto;
+    font-weight: 700;
+    font-size: 4.3vmax;
+    text-align: center;
+    background: linear-gradient(180deg, #01FFF4 42.92%, rgba(1, 255, 244, 0) 99.99%, rgba(1, 255, 244, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+/* .about-main-section .about-container h2:hover{
+    box-shadow: -1px 30px 100px  grey ;
+    transition: 0.5s;
+} */
+.about-visimisi {
+    width: 100%;
+    position: relative;
+}
+
+.about-visimisi img {
+    margin: 2rem 0;
+    width: 100%;
+    height: 10px;
+    position: relative;
+}
+
+.about-misi-title,
+.about-visi-title,
+.achievement-title {
+    color: #01FFF4;
+    font-weight: 700;
+    font-size: 4.3vmax;
+    text-align: center;
+    background: linear-gradient(180deg, #01FFF4 42.92%, rgba(1, 255, 244, 0) 99.99%, rgba(1, 255, 244, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.container-visi,
+.container-misi {
+    padding: 1% 15%;
+    width: 100%;
+}
+
+.container-visi h2,
+.container-misi h2 {
+    font-size: 1.5vmax;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.about-achievement {
+    width: 100%;
+    padding: 5% 0;
+}
+
+.gallery {
+    margin-top: 5%;
+    height: 35vmax;
+    width: 100%;
+}
+
+.gallery-cell {
+    width: 40vw;
+    height: 100%;
+    margin-right: 100px;
+    background: #8C8;
+    object-fit: contain;
+    object-position: center;
+    text-align: center;
+    /* counter-increment: gallery-cell; */
+}
+
+.gallery-cell img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    margin: auto;
+}
+/* 
+cell number
+.gallery-cell:before {
+    display: none;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 4vmax;
+    color: rgb(50, 50, 169);
+} */
+
+.match-count {
+    padding: 10%;
+    margin-top: 0;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.match-count-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    row-gap: 5vmax;
+}
+
+.match-count-container div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+}
+
+.match-count h1 {
+    font-size: 5vmax;
+    margin: auto;
+}
+
+.match-count-container span {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(1, 255, 244, 0.8);
+}
+
+.match-count-container div h3 {
+    padding-bottom: 5%;
+    margin: auto;
+    text-align: center;
+    font-size: 4vmax;
+}
+
+.match-count img {
+    margin: auto;
+    padding: 7%;
+    width: 75%;
+}
+
+.contact-section {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1% 10%;
+    position: relative;
+}
+
+.contact-section header {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.contact-header-left {
+    width: 40%;
+}
+
+.contact-header-left img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.contact-header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.contact-header-right h1 {
+    font-size: 4vmax;
+    font-weight:600;
+}
+
+.contact-header-right h3 {
+    font-size: 2vmax;
+    font-weight: 400;
+}
+
+.contact-form {
+    row-gap: 10vmax;
+    padding: 3%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.contact-form-input {
+    position: relative;
+    width: 100%;
+}
+
+.contact-form input{
+    position: relative;
+    width: 100%;
+    margin: 1% 0;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    background-color: var(--bg);
+    padding: 1%;
+}
+
+.contact-form .contact-button {
+    position: absolute;
+    font-size: 2vmax;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vmax;
+    right: 0;
+    height: 7vmax;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    background-color: rgba(8, 99, 200, 0.4);
+    color: var(--primary)
+}
+
+.contact-form .contact-form-input textarea {
+    margin: 2% 0;
+    background-color: #151C24;
+    border: none;
+    width: 100%; 
+}
+.contact-form-input input[type="text"] {
+    width: 100%;
+    white-space: normal;
+}
+.contact-socmed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background: rgba(8, 99, 200, 0.4);
+    border-radius: 5px;
+    padding: 10%;
+    border: 2px solid #FFFFFF;
+}
+
+.contact-socmed h1 {
+    font-size: 3vmax;
+    position: relative;
+    padding-bottom: 5%;
+    font-weight: 400;
+}
+
+.contact-socmed h3 {
+    font-size: 2vmax;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.contact-socmed .contact-garis {
+    width: 100%;
+    position: relative
+}
+
+.contact-socmed p {
+    display: flex;
+    align-items: center;
+}
+
+.contact-socmed .container-socmed {
+    width: 100%;
+}
+
+.contact-socmed .container-socmed img {
+    width: 5vmax;
+
+}
+
+.contact-socmed .container-socmed a {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.contact-socmed .container-socmed a p {
+    font-size: 2vmax;
+    padding-left: 2rem;
+}

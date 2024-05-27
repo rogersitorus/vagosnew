@@ -1,0 +1,86 @@
+.news-detail-section{
+    width: 100%;
+    display: flex;
+    column-gap: 2%;
+    position: relative;
+}
+.hero-navbar{
+    position: relative;
+}
+.news-main-container{
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    row-gap: 0;
+    column-gap: 0;
+}
+.news-main-container .news-main-card{
+    width: 100%;
+}
+.news-detail-section-content{
+    background-color: #151C24;
+    border: 5px solid var(--primary);
+    width: 70%;
+    position: relative;
+    padding: 0 5%;
+} 
+.news-detail-section-content h1{
+    font-size: 2.5vmax;
+    text-align: center;
+    margin: 5% 0;
+} 
+.news-detail-section-content-paragraf{
+    margin-top: 5%;
+    width: 100%;
+    position: relative;
+}
+.news-detail-section-content-paragraf p{
+    font-size: 1.5vmax;
+}
+.news-detail-section-content-image{
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 50vmax;
+}
+.news-detail-section-content img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+.news-detail-section-latest{
+    width: 30%;
+    position: relative;
+}
+.news-detail-section-latest-header{
+    display: flex;
+    margin-bottom: 5%;
+    height: 10vh;
+    align-items: center;
+    background-color: #151C24;
+    justify-content: space-between;
+}
+.news-detail-section-latest-header-left{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.news-detail-section-latest-header-left h1{
+    font-size: 1.5vmax;
+}
+.news-detail-section-latest-header-right h1{
+    font-size: 1.5vmax;
+}
+
+.news-detail-section-latest-header-right{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: var(--primary);
+}
+.news-detail-section-latest-list{
+    border: 2px solid var(--primary);
+    background-color: darkgrey;
+}
